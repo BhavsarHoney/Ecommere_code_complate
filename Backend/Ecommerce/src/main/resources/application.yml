@@ -1,0 +1,9 @@
+togglz:
+  features:
+    DISCOUNT_APPLIED:
+      enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'togglz'
